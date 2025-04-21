@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Audio Load Failure</title>
+    <style>
+        body {
+            background-color: #d0e7f9; /* light blue background */
+            font-size: 20px;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+        }
+        p {
+            color: #333;
+        }
+        em {
+            font-style: italic;
+            color: #31708f; /* bootstrap info blue */
+        }
+    </style>
+</head>
+<body>
+    <audio controls>
+        <source src="missing_audio.mp3" type="audio/mpeg" />
+        Your browser does not support the audio element.
+    </audio>
+    <p><em>Error: The audio file could not be loaded.</em></p>
+</body>
+</html>
